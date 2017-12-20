@@ -10,7 +10,9 @@
   5.可定义小圆点可用图片代替<br>
   6.可定义小圆点选中和未选中颜色<br>
   7.可定义小圆点是方形还是圆形<br>
-  
+##  演示  
+  ![默认横向](https://github.com/meetly/ASPageView/meetly/raw/master/images/normal_h.png) ![默认纵向](https://github.com/meetly/ASPageView/meetly/raw/master/images/normal_v.png)<br>
+  ![自定义横向](https://github.com/meetly/ASPageView/meetly/raw/master/images/custem_h.png)![自定义纵向](https://github.com/meetly/ASPageView/meetly/raw/master/images/custem_v.png)
 ## 方法介绍
   使用此控件，你可以实现绝大多数的功能，来满足项目的各种需求。使用起来也十分方便 <br>
   ASPageView.h
