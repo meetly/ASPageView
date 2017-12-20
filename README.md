@@ -83,9 +83,8 @@ typedef NS_ENUM(NSInteger, ASpageViewDirection) {
  
  ```
   
-## 联系我
+## 建议搭配ASRotationPageView(轮播图)使用
 
-    QQ:469091701<br> 
-    邮箱:meet_ly@163.com
+    [ASRotationPageView地址：https://github.com/meetly/ASRotationPageView](https://github.com/meetly/ASRotationPageView)
 
 
