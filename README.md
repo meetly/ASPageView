@@ -11,16 +11,16 @@
   6.可定义小圆点选中和未选中颜色<br>
   7.可定义小圆点是方形还是圆形<br>
 ##  演示  
-<img src="https://github.com/meetly/ASPageView/blob/master/images/normal_h.png" width="300" height="650" alt="默认横向"/>
-<img src="https://github.com/meetly/ASPageView/blob/master/images/normal_v.png" width="300" height="650" alt="默认纵向"/>
-<img src="https://github.com/meetly/ASPageView/blob/master/images/custem_h.png" width="300" height="650" alt="自定义横向"/>
-<img src="https://github.com/meetly/ASPageView/blob/master/images/custem_v.png" width="300" height="650" alt="自定义纵向"/>
+ <img src="https://github.com/meetly/ASPageView/blob/master/images/normal_h.png" width="300" height="650" alt="默认横向"/>
+ <img src="https://github.com/meetly/ASPageView/blob/master/images/normal_v.png" width="300" height="650" alt="默认纵向"/>
+ <img src="https://github.com/meetly/ASPageView/blob/master/images/custem_h.png" width="300" height="650" alt="自定义横向"/>
+ <img src="https://github.com/meetly/ASPageView/blob/master/images/custem_v.png" width="300" height="650" alt="自定义纵向"/>
+
+
 ## 方法介绍
+```
   使用此控件，你可以实现绝大多数的功能，来满足项目的各种需求。使用起来也十分方便 <br>
   ASPageView.h
-  ```
-  #import <UIKit/UIKit.h>
-
 
 typedef NS_ENUM(NSInteger, ASpageViewDirection) {
     /** 小圆点横向布局 */
