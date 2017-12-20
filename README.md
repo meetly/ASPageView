@@ -67,8 +67,8 @@ typedef NS_ENUM(NSInteger, ASpageViewDirection) {
 
   ```
 ## 使用说明
-
-  ```
+  将ASPageView文件夹拖入到工程中，并导入头文件 #import "ASPageView.h" 
+  ```
     ASPageView *pageView = [[ASPageView alloc] initWithFrame:CGRectMake(0, 100, 200, 30) pageNumber:3];
     //横向布局
     pageView.pageDirection = ASpageViewDirectionHorizontal;
