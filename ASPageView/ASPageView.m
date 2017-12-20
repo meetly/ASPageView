@@ -228,6 +228,8 @@ static NSUInteger pageTag = 1000;
 }
 - (void)setCurrentPageIndicatorArr:(NSArray *)currentPageIndicatorArr {
     _currentPageIndicatorArr = currentPageIndicatorArr;
+    self.currentPageIndicatorTintColor = [UIColor clearColor];
+    self.pageIndicatorTintColor = [UIColor clearColor];
     for (int i = 0; i<self.pageNumber; i++) {
         UIButton *button = [self.btnFardageView viewWithTag:pageTag+i];
         //已选中图片
@@ -241,6 +243,8 @@ static NSUInteger pageTag = 1000;
 }
 - (void)setPageIndicatorArr:(NSArray *)pageIndicatorArr {
     _pageIndicatorArr = pageIndicatorArr;
+    self.currentPageIndicatorTintColor = [UIColor clearColor];
+    self.pageIndicatorTintColor = [UIColor clearColor];
     for (int i = 0; i<self.pageNumber; i++) {
         UIButton *button = [self.btnFardageView viewWithTag:pageTag+i];
         //未选中图片
