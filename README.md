@@ -12,7 +12,7 @@
   7.可定义小圆点是方形还是圆形<br>
   
 ## 方法介绍
-  使用此控件，你可以实现绝大多数的功能，来满足项目的各种需求。使用起来也十分方便<br>。
+  使用此控件，你可以实现绝大多数的功能，来满足项目的各种需求。使用起来也十分方便 <br>
   ASPageView.h
   ```
   #import <UIKit/UIKit.h>
@@ -65,23 +65,6 @@ typedef NS_ENUM(NSInteger, ASpageViewDirection) {
  */
 - (instancetype)initWithFrame:(CGRect)frame pageNumber:(NSUInteger)pageNumber ;
 
+  ```
 
-  ```
-## 使用说明
-  ```
-    ASPageView *pageView = [[ASPageView alloc] initWithFrame:CGRectMake(0, 100, 200, 30) pageNumber:3];
-    //横向布局
-    pageView.pageDirection = ASpageViewDirectionHorizontal;
-    //圆点大小
-    pageView.pageSize = CGSizeMake(15, 15);
-    //点击小圆点的回调
-    pageView.ClickASPageView = ^(NSUInteger currentPage) {
-        [weakself.rotaView setContentOffsetPage:currentPage];
-    };
-    [self.view addSubview:pageView];
-    ```
-    以上是基本设置，所有属性都有默认值
-## 联系我
-    QQ:469091701
-    邮箱:meet_ly@163.com
 
