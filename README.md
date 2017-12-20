@@ -69,19 +69,19 @@ typedef NS_ENUM(NSInteger, ASpageViewDirection) {
   
 ## 使用说明
   
-  ```
-    ASPageView *pageView = [[ASPageView alloc] initWithFrame:CGRectMake(0, 100, 200, 30) pageNumber:3];
-    //横向布局
-    pageView.pageDirection = ASpageViewDirectionHorizontal;
-    //圆点大小
-    pageView.pageSize = CGSizeMake(15, 15);
-    //点击小圆点的回调
-    pageView.ClickASPageView = ^(NSUInteger currentPage) {
-        [weakself.rotaView setContentOffsetPage:currentPage];
-    };
-    [self.view addSubview:pageView];
+ ```
+   ASPageView *pageView = [[ASPageView alloc] initWithFrame:CGRectMake(0, 100, 200, 30) pageNumber:3];
+   //横向布局
+   pageView.pageDirection = ASpageViewDirectionHorizontal;
+   //圆点大小
+   pageView.pageSize = CGSizeMake(15, 15);
+   //点击小圆点的回调
+   pageView.ClickASPageView = ^(NSUInteger currentPage) {
+   [weakself.rotaView setContentOffsetPage:currentPage];
+   };
+   [self.view addSubview:pageView];
  
-  ```
+ ```
   
 ## 联系我
 
